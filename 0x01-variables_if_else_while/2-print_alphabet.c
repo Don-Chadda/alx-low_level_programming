@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main prints the alhabet in lowercase, followed by a
- * new line
- * Return is always 0
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char cAL;
+	char ch;
 
-	for (cAL = 'a'; cAL <= 'z'; cAL++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(cAL);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
