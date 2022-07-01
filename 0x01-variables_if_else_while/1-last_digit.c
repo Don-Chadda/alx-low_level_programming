@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-#include<stdio.h>
+#include <stdio.h>
 
-/*
- * Main prints the last digit of the random number
- * stored in the variable n
- * Return is always 0
+/**
+ * main - prints the last digit of the random
+ * number stored in the variable n
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
