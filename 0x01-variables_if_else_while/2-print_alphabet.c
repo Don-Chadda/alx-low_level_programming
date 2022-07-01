@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main prints the alhabet in lowercase, followed by a
  * new line
  * Return is always 0
