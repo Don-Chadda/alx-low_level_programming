@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-#define LEN 10
-
-void _memset(char *s, char c, int len);
-
-char *_strcpy(char *dest, char *src);
+int _atoi(char *);
 
 /**
  * main - check the code for Holberton School students.
@@ -13,13 +9,9 @@ char *_strcpy(char *dest, char *src);
  */
 int main(void)
 {
-	char cpy[LEN + 1] = {0};
-	char *str;
-	char *ret;
+	int n;
 
-	_memset(cpy, 'H', LEN);
-	str = "Holberton!";
-	ret = _strcpy(cpy, str);
-	printf("%s\n%s\n%s\n", str, cpy, ret);
+	n = _atoi("4");
+	printf("%d\n", n);
 	return (0);
 }
