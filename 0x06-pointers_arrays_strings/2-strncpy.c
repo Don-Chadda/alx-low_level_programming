@@ -1,4 +1,4 @@
-#include "main.h"
+##include "holberton.h"
 /**
  * *_strncpy - find the length of a string
  * @dest: pointer to the string
@@ -8,7 +8,7 @@
 */
 
 
-char *strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 int i;
 
