@@ -1,13 +1,13 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * _strcat - concatenates two strings
  * @dest: string to append to
- * @str: string to add
+ * @src: string to add
  *
  * Return: a pointer to the resulting string
-*/
-char *strcat(char *dest, char *src)
+ */
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
@@ -21,7 +21,7 @@ char *strcat(char *dest, char *src)
 	{
 		dest[i] = src[j];
 		j++;
-	 	i++;
+		i++;
 	}
 
 	dest[i] = '\0';
