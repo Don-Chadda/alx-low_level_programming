@@ -4,7 +4,7 @@
  * last_index - returns the last index of a string (counts the null char)
  * @s: pointer the string
  * Return: int
-*/
+ */
 
 int last_index(char *s)
 {
@@ -17,10 +17,10 @@ return (n);
 }
 
 /**
- * is_palindrome(char *s)
+ * is_palindrome - check if a string is a palindrome
  * @s: string to check
  * Return: 0 or 1
-*/
+ */
 
 int is_palindrome(char *s)
 {
@@ -36,7 +36,7 @@ return (check(s, 0, end - 1, end % 2));
  * @end: int moves from left to right
  * @pair: int
  * Return: 0 or 1
-*/
+ */
 
 
 int check(char *s, int start, int end, int pair)
